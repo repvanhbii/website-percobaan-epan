@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+			<img src="/assets/icons/partner.png" alt="logo" class="logo-img">
+			<h1 class="logo-title">REPVAN X</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a href="mailto:repvancode@icloud.com">KOTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Repvan Hasbi Here!</p>
+				<p class="description">Technology Influencer From Vilage</p>
+				<img src="/assets/foto epan/epan2.JPG" alt="repvan hasby foto 2" class="img-foto">
+			</div>
+		</div>
+		<div class="paralax">
+			<div class="tentang">
+				<p class="title">Aku Cuman Programer Pemula</p>
+				<p class="description">Ngoding aja dulu, jagonya belakangan</p>
+				<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+			</div>
+			<div class="container">
+				<div class="cards" id="jasa">
+					<div class="card-item">
+						<img src="/assets/icons/24-hours.png" alt="icon 1" class="icon">
+						<p class="card-title2">Pelanayanan nonstop</p>
+						<p class="card-description2">Servis nonstop ketika anda membutuhkan bantuan</p>
+					</div>
+					<div class="card-item">
+						<img src="/assets/icons/hot-deal.png" alt="icon 2" class="icon">
+						<p class="card-title2">Jasa paling murah</p>
+						<p class="card-description2">Biaya jasa yang saya berikan pasti murah dan terjamin </p>
+					</div>
+					<div class="card-item">
+						<img src="/assets/icons/rating.png" alt="icon 3" class="icon">
+						<p class="card-title2">684 review</p>
+						<p class="card-description2">Mereka senang dalam bekerjasama dengan saya.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Repvan Hasbi website 2023</p>
+		</footer>
+
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/repvan.hsbii"
+			}
+
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6283143869413"
+			}
+		</script>
+	</body>
+</html>
